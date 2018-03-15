@@ -2,6 +2,7 @@
 	<test name="Test_One">
 		<classes>
 			<class name="workSelenium.TestNG"></class>
+			<class name="workSelenium.TestNGDataProvidersExcel"></class>
 		</classes>
 	</test>
 </suite>
