@@ -8,6 +8,7 @@ public class StringBufferWork {
 		hh.insert(3, "X");
 		System.out.println(hh.capacity());
 		//hh.append(" Hello");
+		hh.append(" Tree");
 		System.out.println(hh);
 	}
 }
