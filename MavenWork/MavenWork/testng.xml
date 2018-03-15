@@ -1,0 +1,9 @@
+<suite name="Suite_One">
+	<test name="Test_One">
+		<classes>
+			<class name="workSelenium.TestNG"></class>
+		</classes>
+	</test>
+</suite>
+	
+		

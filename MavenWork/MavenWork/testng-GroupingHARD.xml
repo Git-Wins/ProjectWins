@@ -1,0 +1,20 @@
+<suite name="Suite_Grouping">
+	<test name="Practice_Grouping">
+		<groups>
+		<define name = "Four_Wheelers">
+			<include name="Car">
+			</include>
+			<include name="Van">
+			</include>
+		</define>
+			<run>
+				<include name = "Four_Wheelers">
+				</include>
+			</run>
+		</groups>
+		<classes>
+			<class name="workSelenium.TestNG_Groups">
+			</class>
+		</classes>
+	</test>
+</suite>

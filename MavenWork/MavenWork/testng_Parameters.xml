@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG_Parameters Suite">
+	<test name="TestNG_Test_Parameters">
+		<parameter name="sFirstName" value="Denzel"></parameter>
+		<parameter name="sLastName" value="Washington"></parameter>
+		<classes>
+			<class name="workSelenium.TestNGParameters">
+			</class>
+		</classes>
+	</test>
+</suite>

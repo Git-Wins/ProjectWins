@@ -1,0 +1,13 @@
+<suite name="Suite_TestParametersTRY">
+	<test name="Test_TestParametersTRY">
+<!--When multiple values are provided for the same parameter_name, then the most recent/last provided value is taken as it's value-->	
+		<parameter name = "aA" value = "66"></parameter>
+		<parameter name = "aA" value = "33Denzel"></parameter> 
+		<parameter name = "bB" value = "99"></parameter>
+		<parameter name = "bB" value = "44Washington"></parameter> 
+		<classes>
+			<class name="workSelenium.TestNGParametersTRY">
+			</class>
+		</classes>
+	</test>
+</suite>
