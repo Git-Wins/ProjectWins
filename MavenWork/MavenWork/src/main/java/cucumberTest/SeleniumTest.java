@@ -50,5 +50,7 @@ public class SeleniumTest {
 
 		// Close the driver
 		driver.quit();
+		
+		//Assert.
 	}
 }
