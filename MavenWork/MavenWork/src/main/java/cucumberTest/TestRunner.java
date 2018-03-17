@@ -10,8 +10,8 @@ import cucumber.api.junit.Cucumber;
 		,glue={"stepDefinition"}
 		,dryRun = false
 		,monochrome = true
-		,format = {"pretty", "html:target/cucumber"}
-		,tags = {"@sanity", "~@smoke"}
+		//,format = {"pretty", "html:target/cucumber"}
+		//,tags = {"@smoke"}
 		)
  
 public class TestRunner {
