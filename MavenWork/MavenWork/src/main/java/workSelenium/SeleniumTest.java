@@ -1,4 +1,4 @@
-package cucumberTest;
+package workSelenium;
 
 import java.util.concurrent.TimeUnit;
 
@@ -30,23 +30,23 @@ public class SeleniumTest {
 
 		// Find the element that's ID attribute is 'log' (Username)
 		// Enter Username on the element found by above desc.
-		driver.findElement(By.id("log")).sendKeys("testuser_1"); 
+		driver.findElement(By.id("log")).sendKeys("winstonmanvijay@gmail.com"); 
 
 		// Find the element that's ID attribute is 'pwd' (Password)
 		// Enter Password on the element found by the above desc.
-		driver.findElement(By.id("pwd")).sendKeys("Test@123");
+		driver.findElement(By.id("pwd")).sendKeys("Test@123!");
 
 		// Now submit the form. WebDriver will find the form for us from the element 
 		driver.findElement(By.id("login")).click();
 
 		// Print a Log In message to the screen
-		System.out.println("Login Successfully");
+		System.out.println("Logged in Successfully");
 
 		// Find the element that's ID attribute is 'account_logout' (Log Out)
-		driver.findElement (By.xpath(".//*[@id='account_logout']/a")).click();
+		driver.findElement (By.id("account_logout")).click();
 
 		// Print a Log In message to the screen
-		System.out.println("LogOut Successfully");
+		System.out.println("LoggedOut Successfully");
 
 		// Close the driver
 		driver.quit();

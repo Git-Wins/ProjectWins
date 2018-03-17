@@ -8,9 +8,12 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "Feature"
 		,glue={"stepDefinition"}
+		,dryRun = false
+		,monochrome = true
+		,format = {"pretty", "html:target/cucumber"}
+		,tags = {"@sanity", "~@smoke"}
 		)
  
-public class TestRunner 
-{
+public class TestRunner {
  
 }
