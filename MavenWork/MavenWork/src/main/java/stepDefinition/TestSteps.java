@@ -17,6 +17,21 @@ import cucumber.api.java.en.When;
 
 public class TestSteps {
 	
+	@Given("^this is the Given-bg block$")
+	public void this_is_the_Given_bg_block() throws Throwable {
+	    System.out.println("BG-Given block");
+	}
+
+	@When("^this is the When-bg block$")
+	public void this_is_the_When_bg_block() throws Throwable {
+		System.out.println("BG-When block");
+	}
+
+	@Then("^this is the Then-bg block$")
+	public void this_is_the_Then_bg_block() throws Throwable {
+		System.out.println("BG-Then block");
+	}
+	
 	@Given("^this is the first step$")
 	public void this_is_the_first_step() throws Throwable {
 	    System.out.println("1st Step");

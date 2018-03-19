@@ -29,8 +29,8 @@ public class FileWorks {
 		for (int i = 1; i < rowCount + 1; i++) {
 			XSSFRow row = wSheet.getRow(i);
 			for (int j = 0; j < columnCount; j++) {
-				String cellVal = "";
-				cellVal = row.getCell(j).getStringCellValue();
+				//String cellVal = "";
+				String cellVal = row.getCell(j).getStringCellValue();
 				// cellVal = wSheet.getRow(i).getCell(j).getStringCellValue() THIS IS WHAT
 				// HAPPENS ABOVE
 				data[i - 1][j] = cellVal;

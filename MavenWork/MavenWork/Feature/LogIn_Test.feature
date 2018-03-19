@@ -1,4 +1,10 @@
 Feature: Test Order of Hooks
+This is the Description block
+
+Background:
+Given this is the Given-bg block
+When this is the When-bg block
+Then this is the Then-bg block
 
 @First
 Scenario: This is the 1st Scenario

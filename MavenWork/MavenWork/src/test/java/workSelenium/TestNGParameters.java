@@ -20,7 +20,7 @@ public class TestNGParameters
 
 	@ Parameters({"sFirstName", "sLastName"})
 	
-	@Test
+	@Test (invocationCount = 2)
 	public void test(String sFirstName, String sLastName) throws WebDriverException, IOException 
 	{
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
