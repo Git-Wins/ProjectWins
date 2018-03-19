@@ -4,7 +4,7 @@
 		<define name = "Four_Wheelers">
 			<include name="Car">
 			</include>
-			<include name="Scooter">
+			<include name="Van">
 			</include>
 		</define>
 			<run>
